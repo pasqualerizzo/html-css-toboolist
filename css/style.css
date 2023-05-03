@@ -50,6 +50,11 @@ h1 {
     margin: 0 auto;
 }
 
+.position-button {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
 #bottone-1 {
     background-color: #47adf1;
     color: white;
@@ -57,6 +62,7 @@ h1 {
     width: 70px;
     height: 30px;
     border: 0px;
+    margin-bottom: 10px;
 }
 
 #bottone-2 {
@@ -121,18 +127,28 @@ hr {
 
 
 .editorial {
-    background-color: #47adf1;
+    background-color:#47adf1;
     
 }
 
 .q1-goals {
-    background-color: #9c72e4;
+    background-color:#9c72e4;
 }
 
 .recruiting {
-    background-color: #7dcab7;
+    background-color:#7dcab7;
 }
 
 .mobile {
-    background-color: #f29e33;
+    background-color:#f29e33;
 }
+
+.website{
+    background-color:#d863a1;
+}
+
+.sales{
+    background-color:#b5cb31;
+}
+
+/* fine main-cerchero di ordinare un po di piú il codice scusate */
