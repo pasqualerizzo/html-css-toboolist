@@ -1,7 +1,7 @@
 /* 
 Reset
 */
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -12,6 +12,127 @@ Reset
 /*
  General
 */
-*{
+
+* {
     font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+/* header */
+header {
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.sfondo{
+    background-color: white;
+}
+
+h1 {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.logo {
+   vertical-align: middle;
+   padding-left: 15px;
+}
+/* fine header */
+
+
+
+/* inizio main */
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#bottone-1 {
+    background-color: #47adf1;
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    border: 0px;
+}
+
+#bottone-2 {
+    background-color: #ffffff;
+    color: grey;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    border-color: #cfd4d8;
+    color: #cfd4d8;
+}
+
+hr {
+    color: #cfd4d8;
+    padding: 2px;
+    border: 0;
+}
+
+.menu {
+    padding: 20px;
+    line-height: 30px;
+}
+
+.tendina {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.spaziature {
+    padding-bottom: 15px;
+}
+
+.check {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    color: black;
+    display: inline-block;
+    text-align: center;
+}
+
+.done {
+    border-color: green;
+    color: green;
+}
+
+.not-done {
+    border-color: red;
+    color: red;
+}
+
+
+.standard-button {
+    color: white;
+    border-radius: 20px;
+    width: 70px;
+    height: 25px;
+    border: 0px;
+}
+
+
+
+.editorial {
+    background-color: #47adf1;
+    
+}
+
+.q1-goals {
+    background-color: #9c72e4;
+}
+
+.recruiting {
+    background-color: #7dcab7;
+}
+
+.mobile {
+    background-color: #f29e33;
 }
